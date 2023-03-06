@@ -13,5 +13,3 @@ app.use(PertanyaanRoute);
 app.listen(port, () => {
     console.log('App dijalankan di port', port)
 });
-
-module.exports = app;
