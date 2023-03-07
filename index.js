@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import UserRoute from "./routes/UserRoute.js";
 import PertanyaanRoute from "./routes/PertanyaanRoute.js"
-
+import pg from "pg"
 
 const app = express();
 const port = 8000;
