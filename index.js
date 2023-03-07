@@ -13,5 +13,8 @@ app.use(PertanyaanRoute);
 app.listen(port, () => {
     console.log('App dijalankan di port', port)
 });
+app.get('/', (req, res) => {
+    res.send("Express on vercel")
+})
 
 export default app
