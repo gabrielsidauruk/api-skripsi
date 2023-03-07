@@ -13,11 +13,18 @@
         },
         {
             "src": "/pertanyaan",
-            "dest": "/routes/PertanyaanRoute.js"
+            "dest": "/routes/PertanyaanRoute.js",
+            "methods": [
+                "GET"
+            ]
         },
         {
             "src": "/users",
-            "dest": "/users"
+            "dest": "/routes/UserRoute.js",
+            "methods": [
+                "GET",
+                "POST"
+            ]
         }
     ]
 }
