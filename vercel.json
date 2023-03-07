@@ -8,8 +8,16 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "./"
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/pertanyaan",
+            "dest": "/pertanyaan"
+        },
+        {
+            "src": "/users",
+            "dest": "/users"
         }
     ]
 }
