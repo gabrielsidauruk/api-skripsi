@@ -4,7 +4,7 @@ import UserRoute from "./routes/UserRoute.js";
 import PertanyaanRoute from "./routes/PertanyaanRoute.js"
 
 
-const app = require('express');
+const app = express();
 const port = 8000;
 
 
