@@ -23,7 +23,9 @@
             "dest": "/routes/UserRoute.js",
             "methods": [
                 "GET",
-                "POST"
+                "POST",
+                "PATCH",
+                "DELETE"
             ]
         }
     ]
