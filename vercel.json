@@ -8,12 +8,15 @@
     ],
     "routes": [
         {
-            "src": "/",
+            "src": "/(.*)",
             "dest": "/"
         },
         {
             "src": "/pertanyaan",
-            "dest": "/pertanyaan"
+            "dest": "/routes/PertanyaanRoute.js",
+            "methods": [
+                "GET"
+            ]
         },
         {
             "src": "/users",
