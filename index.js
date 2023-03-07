@@ -2,11 +2,16 @@ import express from "express";
 import cors from "cors";
 import UserRoute from "./routes/UserRoute.js";
 import PertanyaanRoute from "./routes/PertanyaanRoute.js"
-import pg from "pg"
+import { getPertanyaan } from "./controllers/PertanyaanController.js";
 
 const app = express();
 const port = 8000;
 
+
+
+const router = express.Router();
+
+router.get('/pertanyaan', getPertanyaan)
 
 app.use(cors());
 app.use(express.json());
