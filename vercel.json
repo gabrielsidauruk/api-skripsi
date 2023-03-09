@@ -46,7 +46,14 @@
             "dest": "/routes/UserRoute.js",
             "methods": [
                 "GET",
-                "POST",
+                "POST"
+            ]
+        },
+        {
+            "src": "/users/:id",
+            "dest": "/routes/UserRoute.js",
+            "methods": [
+                "GET",
                 "PATCH",
                 "DELETE"
             ]
