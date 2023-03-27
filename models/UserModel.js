@@ -15,7 +15,9 @@ const User = db.define('users', {
     kec6: DataTypes.INTEGER,
     kec7: DataTypes.INTEGER,
     kec8: DataTypes.INTEGER,
-    kec9: DataTypes.INTEGER
+    kec9: DataTypes.INTEGER,
+    valid: DataTypes.TEXT,
+    refer: DataTypes.TEXT
 
 }, {
     freezeTableName: true
